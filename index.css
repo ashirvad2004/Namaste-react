@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px  solid black;
+}
+.Logo{
+
+
+    width: 200px;
+}
+.nav_items >ul{
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+.nav_items>ul>li{
+    padding: 10px;
+    margin: 10px;
+}
+.res_card{
+    margin: 2px;
+    padding: 2px;
+    width: 300px;
+    height: 500px;
+    
+}
+.search{
+    padding: 10px;
+}
+.res_img{
+    width: 300px;
+    height: 200px;
+}
+.res_card:hover{
+    cursor: pointer ;
+    border: 1px solid black;
+}
+.restrocnt{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
